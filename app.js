@@ -1,0 +1,1 @@
+function toggleSidebar(){document.querySelector('.sidebar').classList.toggle('collapsed')}function filterCards(){const q=document.getElementById('globalSearch').value.toLowerCase();document.querySelectorAll('[data-search]').forEach(el=>{el.style.display=el.getAttribute('data-search').toLowerCase().includes(q)?'':'none'})}
